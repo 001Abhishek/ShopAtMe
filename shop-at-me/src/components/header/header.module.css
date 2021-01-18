@@ -1,0 +1,21 @@
+.headerMain {
+	background: #000000;
+	color: #ffffff;
+	height: 3rem;
+}
+.logoText {
+	position: relative;
+    font-size: 2rem;
+}
+.selectAddress {
+	position: relative;
+    margin-left: 2rem;
+    margin-bottom: -2px;
+}
+
+.icon {
+	color: #ffffff;
+	position: relative;
+	margin-left: 2rem;
+
+}
