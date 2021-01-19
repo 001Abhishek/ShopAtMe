@@ -3,9 +3,18 @@
 	color: #ffffff;
 	height: 3rem;
 }
+
+.headerRow {
+	height: inherit;
+}
+
 .logoText {
 	position: relative;
-    font-size: 2rem;
+	font-size: 2rem;
+	height: inherit;
+	margin-bottom: 0rem;
+	cursor: pointer;
+    outline: none;
 }
 .selectAddress {
 	position: relative;
@@ -13,9 +22,110 @@
     margin-bottom: -2px;
 }
 
-.icon {
+i {
 	color: #ffffff;
 	position: relative;
-	margin-left: 2rem;
+}
 
+.locationDiv {
+	cursor: pointer;
+	margin-left: 2rem;
+    outline: none;
+}
+
+.locationIcon {
+	margin-left: 2rem;
+}
+
+.searchBox {
+	height: inherit;
+	position: relative;
+    margin-left: 4rem;
+}
+
+.searchInput {
+	width: 58rem;
+	margin-top: .2rem;
+    height: 2.5rem;
+}
+
+.searchIcon {
+    padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	cursor: pointer;
+    outline: none;
+}
+
+.searchIcon::before {
+	font-size: 1.7rem;
+}
+
+.languageSelection {
+	margin-left: 4rem;
+    margin-top: .2rem;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+}
+
+.countryFlag{
+	width: 2.5rem;
+    height: 2.5rem;
+}
+
+.languageDropdown {
+	height: max-content;
+	width: max-content;
+	margin-top: 1.3rem;
+	margin-left: 0.3rem;
+}
+
+.languageDropdown::before {
+	font-size: 1.3rem;
+}
+
+.accountDiv {
+	height: inherit;
+    position: relative;
+	margin-left: 3rem;
+	cursor: pointer;
+	outline: none;	
+}
+
+.accountsText {
+	position: relative;
+	font-size: 0.9rem;
+	margin-left: 1.3rem;
+	margin-bottom: 0rem;
+}
+
+.accountDropdown {
+	margin-left: .2rem;
+    margin-top: .2rem;
+}
+
+.returnsDiv {
+	margin-bottom: 0rem;
+    margin-left: 3rem;
+	width: 4rem;
+	cursor: pointer;
+	outline: none;
+}
+
+.cartDiv {
+	margin-left: 1rem;
+	margin-top: 0.2rem;
+	cursor: pointer;
+	outline: none;
+}
+
+.cartIcon {
+	margin-left: 1rem;
+    font-size: 2.2rem;
+}
+
+.cartText {
+	margin-bottom: 0rem;
+	margin-left: 0.7rem;
+	margin-top: 0.7rem;
 }
